@@ -3,7 +3,7 @@ def get_n_values(n):
         try:
             result.append(int(input('Enter an element: ')))
         except ValueError:
-            print("Invalid data. Elements must be natural numbers")
+            print("Invalid data. Elements must be integers")
             quit()
     return result
 
