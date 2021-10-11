@@ -4,7 +4,7 @@ try:
 except ValueError:
     print("Invalid data. The number of elements must be natural ")
 else:
-    if n != 0:
+    if n > 0:
         for m in range(n):
             try:
                 result.append(int(input('Enter an element: ')))
