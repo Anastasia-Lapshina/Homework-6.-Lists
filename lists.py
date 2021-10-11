@@ -30,7 +30,7 @@ if n != 0:
         for x in result:
             if x - minim == delta:
                 count += 1
-        if delta == 0 and count >= 2:
+        if delta == 0:
             count -= 1
         print(f"The number of such elements in the list equals {count}")
     else:
